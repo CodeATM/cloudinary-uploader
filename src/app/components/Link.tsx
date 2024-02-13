@@ -21,7 +21,7 @@ const Link = ({ value }: LinkProps) => {
         <button
           type="button"
           title="press to copy"
-          className="absolute top-1/2 -translate-y-1/2 block right-1 bg-blue-500 hover:bg-blue-600 transition-colors text-gray-50 text-sm w-20 h-8 rounded-lg shadow-xl shadow-blue-500/50"
+          className="absolute top-1/2 -translate-y-1/2 block right-1 bg-gray-800 hover:bg-gray-900 transition-colors text-gray-50 text-sm w-20 h-8 rounded-lg shadow-xl shadow-gray-500/50"
           onClick={() => {
             const isCopy = copy(value || "");
             if (isCopy) {

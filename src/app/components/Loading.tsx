@@ -6,7 +6,7 @@ type Props = {};
 
 const Loading = (props: Props) => {
   return (
-    <div className="">
+    <div className="flex justify-center items-center">
       <motion.div
         className="text-[8rem]    text-blue-900"
         initial={{ opacity: 0 }}
